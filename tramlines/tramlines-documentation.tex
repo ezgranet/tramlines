@@ -74,9 +74,9 @@ breaklines,
 firstnumber=last
 ]
 {latex}
-\def\tramlinesversionnumber{1.1.0}
+\def\tramlinesversionnumber{1.1.1}
 \ProvidesPackage{tramlines}
-[2023/01/29\tramlinesversionnumber\
+[2024/07/18\tramlinesversionnumber\
  Tramlines]
  % This work may be distributed and/or modified under the 
 % conditions of the LaTeX Project Public License, either version 1.3c 
@@ -112,7 +112,7 @@ firstnumber=last
 \centering
 {%notglobal
 \setlength\doublerulesep{\tramlinesep}% <-- set distance between double rule
-\begin{tabular}[t]{l c c }
+\begin{tabular}[t]{c c c }
 \toprule\toprule
  & #1 &  \\
 \bottomrule\bottomrule
@@ -129,7 +129,18 @@ firstnumber=last
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%\end{minted}
 
+\section{Version History}
+\subsection*{\ttfamily 1.1.1} 
+\ttfamily 18 July 2024: Change erroneous left alignment to centre alignment
+\subsection*{\ttfamily 1.1.0}  
+
+\ttfamily 29 October 2023: Updates to float composition and fixed bug with global commands. Thanks to GitHub user `niruvt'
+
+\ttfamily 29/01/2023: Updates to float composition and fixed bug with global commands. Thanks to GitHub user niruvt
+
+
 \subsection*{\texttt{1.0.0}}
+
 
 \ttfamily 27 January 2023: Package creation
 
